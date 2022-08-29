@@ -31,9 +31,16 @@ font-size: 12px;
 letter-spacing: 2px;
 font-weight: bold;
 border-radius: 15px;
+outline: none;
 }
 .name{
     color:white;
     font-weight: bold;
     font-size: 50px;
+}
+@media (max-width:767px) {
+    .show{
+        font-size: 45px;
+    }
+    
 }
